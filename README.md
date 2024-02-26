@@ -20,6 +20,8 @@ Example 1 > [execution command] --type=diff --principal=1000000 --periods=10 --i
 Example 2 > [execution command] --type=annuity --payment=8722 --periods=120 --interest=5.6
 
 ## Supported languages:
+| Language (version) | [execution command] |
+| ------ | ------ |
 - Go (1.22.0)      | [go run credit_calculator.go]
 - Java SE 21 (LTS) | [java CreditCalculator]
 - Python (3.9)     | [python credit_calculator.py]
