@@ -95,7 +95,7 @@ if __name__ == '__main__':
         print("Print 3 of them to calculate the 4th (Note: you can't calculate the interest rate!)")
         print('It will calculate the missing parameter and overpayment.')
         print()
-        print('Example 1 > python credit_calc.py --type=diff --principal=1000000 --periods=10 --interest=10')
-        print('Example 2 > python credit_calc.py --type=annuity --payment=8722 --periods=120 --interest=5.6')
+        print('Example 1 > python credit_calculator.py --type=diff --principal=1000000 --periods=10 --interest=10')
+        print('Example 2 > python credit_calculator.py --type=annuity --payment=8722 --periods=120 --interest=5.6')
     else:
         print('Please, choose "diff" or "annuity" for "--type=..." You can "--type=help" for more info.')
