@@ -50,6 +50,7 @@ public class CreditCalculator {
             System.out.println();
             System.out.println("Example 1 > java CreditCalculator --type=diff --principal=1000000 --periods=10 --interest=10");
             System.out.println("Example 2 > java CreditCalculator --type=annuity --payment=8722 --periods=120 --interest=5.6");
+            System.out.println("Note: Do not forget to compile your .java file to .class file before run!");
         } else {
             System.out.println("Please, choose \"diff\" or \"annuity\" for \"--type=...\" You can \"--type=help\" for more info.");
         }
