@@ -1,4 +1,4 @@
-# credit_calculator
+# Credit Calculator
 This is a Credit Calculator! My first project with the CLI interaction. You can write --type=help to get started.
 
 Download the file, go to it's location with the Command Line Interpreter (CLI), and run the python file.
@@ -16,5 +16,10 @@ There are 4 parameters: "--principal=... --payment=... --periods=... --interest=
 Print 3 of them to calculate the 4th (Note: you can't calculate the interest rate!)
 It will calculate the missing parameter and overpayment.
 
-Example 1 > python credit_calc.py --type=diff --principal=1000000 --periods=10 --interest=10  
-Example 2 > python credit_calc.py --type=annuity --payment=8722 --periods=120 --interest=5.6
+Example 1 > [execution command] --type=diff --principal=1000000 --periods=10 --interest=10  
+Example 2 > [execution command] --type=annuity --payment=8722 --periods=120 --interest=5.6
+
+## Supported languages:
+- Go (1.22.0)      | [go run credit_calculator.go]
+- Java SE 21 (LTS) | [java CreditCalculator]
+- Python (3.9)     | [python credit_calculator.py]
