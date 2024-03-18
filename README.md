@@ -22,6 +22,7 @@ Example 2 > [execution command] --type=annuity --payment=8722 --periods=120 --in
 ## Supported languages:
 | Language (version) | [execution command] |
 | ------ | ------ |
+| C | [./credit_calculator] |
 | Go (1.22.0) | [go run credit_calculator.go] |
 | Java SE 21 (LTS) | [java CreditCalculator] |
 | Python (3.9) | [python credit_calculator.py] |
