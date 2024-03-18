@@ -61,8 +61,8 @@ int main() {
         printf("There are 4 parameters: \"--principal=... --payment=... --periods=... --interest=...\"\n");
         printf("Print 3 of them to calculate the 4th (Note: you can't calculate the interest rate!)\n");
         printf("It will calculate the missing parameter and overpayment.\n\n");
-        printf("Example 1 > ./CreditCalculator diff\n");
-        printf("Example 2 > ./CreditCalculator annuity\n");
+        printf("Example 1 > ./credit_calculator diff\n");
+        printf("Example 2 > ./credit_calculator annuity\n");
         printf("Note: Do not forget to compile your .c file before run!\n");
     } else {
         printf("Please, choose \"diff\" or \"annuity\" for \"--type=...\" You can \"--type=help\" for more info.\n");
